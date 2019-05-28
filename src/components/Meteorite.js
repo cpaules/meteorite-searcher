@@ -9,7 +9,7 @@ const Meteorite = ({ meteor }) => (
       <td className='td-left'>{meteor.recclass}</td>
       <td className='td-mass'>{meteor.mass}</td>
       <td>{meteor.fall}</td>
-      <td className='td-left'>{(new Date(meteor.year)).getFullYear()}</td>
+      <td className='td-left'>{(new Date(meteor.year)).getFullYear().toString()}</td>
       <td>{meteor.reclat}</td>
       <td>{meteor.reclong}</td>
     </tr>
